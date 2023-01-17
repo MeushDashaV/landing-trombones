@@ -20,20 +20,24 @@
               alt="logo"
             />
           </div>
-          <div class="header-nav__menu">
-            <a href="#features" class="header-nav__menu-item">Features</a>
-            <a href="#how_it_works" class="header-nav__menu-item"
+
+          <nav class="header-nav__menu">
+            <ul>
+            <li><a href="#features" class="header-nav__menu-item">Features</a></li>
+            <li><a href="#how_it_works" class="header-nav__menu-item"
               >How It Works</a
-            >
-            <a href="#pricing" class="header-nav__menu-item">Pricing</a>
-          </div>
+            ></li>
+            <li><a href="#pricing" class="header-nav__menu-item">Pricing</a></li>
+          </ul>
+          </nav>
         </div>
       </nav>
-      <div class="header-banner container">
+      <div class="header-banner">
         <h1 class="header-banner__h1">Handcrafted, home-made masterpieces</h1>
         <div class="navigation">
           <form>
-            <input
+            <input 
+            class="navigation_enter"
               type="text"
               id="name"
               placeholder="Enter your email address"
@@ -41,7 +45,9 @@
           </form>
         </div>
         <div class="button">
-          <button>Get started</button>
+          <button class="first_button"><p >Get started</button></p>
+
+          
         </div>
       </div>
     </header>
@@ -99,7 +105,7 @@
           <li>Lorem ipsum.</li>
         </ol>
         <div class="product-card__buttons">
-          <button class="product-card__buttons-select button-card">
+          <button class="product-card__buttons-select">
             <p class="select">Select</p>
           </button>
         </div>
@@ -115,7 +121,7 @@
           <li>Lorem ipsum.</li>
         </ol>
         <div class="product-card__buttons">
-          <button class="product-card__buttons-select button-card">
+          <button class="product-card__buttons-select">
             <p class="select">Select</p>
           </button>
         </div>
@@ -131,11 +137,32 @@
           <li>Lorem ipsum.</li>
         </ol>
         <div class="product-card__buttons">
-          <button class="product-card__buttons-select button-card">
+          <button class="product-card__buttons-select">
             <p class="select">Select</p>
           </button>
         </div>
       </article>
     </div>
+<div class="footer_contacts">
+  <div class="header__social-icons">
+    <ul class="header__social-icons-list">
+      <li>
+        <a href="https://www.facebook.com/"><img class="header__social-icons-img"
+            src="img/facebook.svg" alt="Facebook icon"></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/"><img class="header__social-icons-img"
+            src="img/instagram.svg" alt="Instagram icon"></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/"><img class="header__social-icons-img"
+            src="img/youtube.svg" alt="Youtube icon"></a>
+      </li>
+    </ul>
+  </div>
+  <span>Copyright 2016, Original Trombones</span>
+</div>
+
+
   </body>
 </html>
