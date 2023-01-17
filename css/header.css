@@ -1,3 +1,11 @@
-svg {
-    fill: #FFA500;
+.nav-logo {
+    width: 350px;
+}
+
+.header-nav__menu {
+    display: flex;
+}
+
+.header-nav__menu-item {
+    text-decoration: none;
 }
