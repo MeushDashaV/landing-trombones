@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 justify-content: center;
-
 }
 
 
@@ -31,12 +30,7 @@ img {
     width: 100%;
 }
 
-div {
+.container {
     max-width: 1800px;
 }
  
-@media (max-width: 400px) {
-    div {
-        max-width: 350px;
-    }
-}

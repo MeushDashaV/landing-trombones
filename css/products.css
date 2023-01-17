@@ -64,13 +64,3 @@
 .select {
     padding-bottom: 9px;
 }
-
-
-@media (max-width: 400px) {
-    .video {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        height: 300px;
-    }
-}
