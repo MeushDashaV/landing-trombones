@@ -1,1 +1,23 @@
+.header__social-icons-img {
+    width: 50px;
+    cursor: pointer;
+    padding-right: 15px;
+}
 
+.header__social-icons-list {
+display: flex;
+justify-content: center;
+}
+
+.footer_contacts {
+    background-color: var(--bg-color);
+    display: block;
+    width: 1200px;
+    padding: 20px;
+    margin: auto;
+}
+
+.coryright {
+   display: flex;
+   justify-content: end;
+}
