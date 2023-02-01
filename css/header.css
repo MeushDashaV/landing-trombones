@@ -97,9 +97,42 @@ nav > ul {
 }
 
 @media(max-width:1150px) {
-    
+  .icon {
+    padding-left: 50px;
+  }
+  .description {
+    width: 850px;
+  }
+}
+
+@media(max-width:990px) {
+  .description {
+    width: 700px;
+  }
+
+}
+
+@media(max-width:840px) {
+  .description {
+    width: 530px;
+  }
+}
+
+@media(max-width:670px) {
+  .description {
+    width: 450px;
+  }
+}
+
+@media(max-width:590px) {
+  .description {
+    width: 300px;
+    font-size: 13px;
+  }
 }
 
 @media(max-width:400px) {
-    
+  .description {
+    width: 200px;
+  }
 }
