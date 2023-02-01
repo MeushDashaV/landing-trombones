@@ -96,7 +96,7 @@ nav > ul {
   font-size: 17px;
 }
 
-@media(max-width:1150px) {
+@media (max-width: 1150px) {
   .icon {
     padding-left: 50px;
   }
@@ -105,34 +105,60 @@ nav > ul {
   }
 }
 
-@media(max-width:990px) {
+@media (max-width: 990px) {
   .description {
     width: 700px;
   }
-
 }
 
-@media(max-width:840px) {
+@media (max-width: 840px) {
   .description {
     width: 530px;
   }
 }
 
-@media(max-width:670px) {
+@media (max-width: 670px) {
   .description {
     width: 450px;
   }
 }
 
-@media(max-width:590px) {
+@media (max-width: 590px) {
+  .icon {
+    padding-left: 30px;
+  }
   .description {
     width: 300px;
     font-size: 13px;
+    padding-left: 30px;
   }
+  img.icons_truck {
+    max-width: 40px;
+  }
+  img.icons_fire {
+    max-width: 40px;
+  }
+  img.icons_bat {
+    max-width: 40px;
+  }
+
 }
 
-@media(max-width:400px) {
+@media (max-width: 440px) {
   .description {
     width: 200px;
+    font-size: 13px;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  img.icons_truck {
+    max-width: 40px;
+  }
+  img.icons_fire {
+    max-width: 40px;
+  }
+  img.icons_bat {
+    max-width: 40px;
   }
 }
