@@ -21,3 +21,11 @@ justify-content: center;
    display: flex;
    justify-content: end;
 }
+
+ @media(max-width:1150px) {
+
+ }
+
+ @media(max-width:400px) {
+    
+ }
