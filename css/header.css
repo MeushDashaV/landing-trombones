@@ -94,6 +94,16 @@ nav > ul {
   padding-top: 50px;
   max-width: 900px;
   font-size: 17px;
+  text-align: justify;
+}
+
+/*burger*/
+
+#burger-checkbox {
+  display: none;
+}
+.burger-icon {
+  font-size: 2em;
 }
 
 @media (max-width: 1150px) {
@@ -121,6 +131,12 @@ nav > ul {
   .description {
     width: 450px;
   }
+  .nav-logo{
+    max-width: 200px;
+  }
+  .header-nav__menu {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 590px) {
@@ -141,9 +157,20 @@ nav > ul {
   img.icons_bat {
     max-width: 40px;
   }
+  .header-nav__menu {
+    display: none;
+  }
+  #burger-checkbox:checked~.header-nav__menu {
+    display: flex;
+  }
 
 }
 
+@media (min-width: 590px){
+.burger-icon {
+  display: none;
+}
+}
 @media (max-width: 440px) {
   .description {
     width: 200px;
@@ -160,5 +187,9 @@ nav > ul {
   }
   img.icons_bat {
     max-width: 40px;
+  }
+
+  h1 {
+    font-size: 20px;
   }
 }
