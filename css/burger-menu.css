@@ -7,10 +7,10 @@
 }
 .burger-icon {
   font-size: 2em;
-
+  margin-right: 5px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 570px) {
   .header-nav__menu {
     display: none;
   }
@@ -19,9 +19,10 @@
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 570px) {
   .burger-icon {
     display: none;
+
   }
 
 }

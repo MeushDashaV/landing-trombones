@@ -65,3 +65,22 @@
 .select {
     padding-bottom: 9px;
 }
+
+@media(max-width:860px) {
+  .main-products__list{
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 1fr 1fr;
+  }
+}
+
+@media(max-width:500px) {
+  .pricing-card {
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    width: 250px;
+    height: 360px;
+  }
+}
+
