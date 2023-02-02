@@ -97,14 +97,7 @@ nav > ul {
   text-align: justify;
 }
 
-/*burger*/
 
-#burger-checkbox {
-  display: none;
-}
-.burger-icon {
-  font-size: 2em;
-}
 
 @media (max-width: 1150px) {
   .icon {
@@ -166,11 +159,6 @@ nav > ul {
 
 }
 
-@media (min-width: 590px){
-.burger-icon {
-  display: none;
-}
-}
 @media (max-width: 440px) {
   .description {
     width: 200px;
