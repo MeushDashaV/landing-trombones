@@ -1,8 +1,8 @@
 .video {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    height: 300px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  height: 300px;
 }
 
 .pricing-card {
@@ -56,25 +56,25 @@
 }
 
 .main-products__list {
-    display: flex;
-    flex-direction: row;
-    padding-top: 120px;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  padding-top: 120px;
+  justify-content: center;
 }
 
 .select {
-    padding-bottom: 9px;
+  padding-bottom: 9px;
 }
 
-@media(max-width:860px) {
-  .main-products__list{
+@media (max-width: 860px) {
+  .main-products__list {
     display: grid;
     grid-template-columns: auto;
     column-gap: 1fr 1fr;
   }
 }
 
-@media(max-width:500px) {
+@media (max-width: 500px) {
   .pricing-card {
     margin: 10px;
     border: 1px solid #000;
@@ -83,4 +83,3 @@
     height: 360px;
   }
 }
-
