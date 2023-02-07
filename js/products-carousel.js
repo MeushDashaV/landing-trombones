@@ -11,12 +11,14 @@
     );
     slideContainer.innerHTML = slides[currentSlideIdx];
     if (window.innerWidth > 768) {
-        const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-        slideContainer.innerHTML += slides[secondSlideIdx];
-        if (window.innerWidth > 900) {
-            const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
-            slideContainer.innerHTML += slides[thirdSlideIdx];
-        }
+      const secondSlideIdx =
+        currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+      slideContainer.innerHTML += slides[secondSlideIdx];
+      if (window.innerWidth > 900) {
+        const thirdSlideIdx =
+          secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
+        slideContainer.innerHTML += slides[thirdSlideIdx];
+      }
     }
   }
   function nextSlide() {
@@ -29,7 +31,7 @@
       currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
     renderSlide();
   }
-  //  setInterval(nextSlide, 1000);
+  setInterval(nextSlide, 3000);
   renderSlide();
   const nextBtn = document.querySelector(".products-carousel__next");
   nextBtn.addEventListener("click", nextSlide);
@@ -37,4 +39,6 @@
   renderSlide();
   const prevBtn = document.querySelector(".products-carousel__prev");
   prevBtn.addEventListener("click", prevSlide);
+
+  window.addEventListener("resize", renderSlide);
 })();

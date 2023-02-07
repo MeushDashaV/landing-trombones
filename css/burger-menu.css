@@ -1,9 +1,7 @@
 /*burger*/
 
-
 #burger-checkbox {
   display: none;
-
 }
 .burger-icon {
   font-size: 2em;
@@ -22,7 +20,5 @@
 @media (min-width: 570px) {
   .burger-icon {
     display: none;
-
   }
-
 }
