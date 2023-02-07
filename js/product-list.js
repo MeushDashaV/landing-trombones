@@ -1,27 +1,8 @@
-(function () {
-  const products = [
-    {
-      id: "1",
-      title: "TENOR TROMBONE",
-      //тут може бути вставлена картинка
-      description: "TENOR TROMBONE...",
-      price: 600,
-    },
-    {
-      id: "2",
-      title: "BASS TROMBONE",
-      //тут може бути вставлена картинка
-      description: "BASS TROMBONE...",
-      price: 900,
-    },
-    {
-      id: "3",
-      title: "VALVE TROMBONE",
-      //тут може бути вставлена картинка
-      description: "VALVE TROMBONE...",
-      price: 1200,
-    },
-  ];
+(async function () {
+
+const response = await fetch('api/products.json');
+const products = await response.json();
+
   function renderProducts(products){
     const productsContainer = document.querySelector(".main-products__list");
     productsContainer.innerHTML = '';
